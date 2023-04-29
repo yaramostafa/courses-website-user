@@ -1,0 +1,52 @@
+body {
+	font-family: Arial, sans-serif;
+    background-image: linear-gradient(#8039a1, #3c2065);
+}
+
+main {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	padding: 20px;
+}
+
+.course {
+	background-color: #C3B1E1;
+	border-radius: 5px;
+	box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
+	margin: 20px;
+	padding: 20px;
+	width: 400px;
+}
+
+.course img {
+	display: block;
+	margin: 0 auto;
+    height:300px;
+    width:300px;
+}
+
+.course h2 {
+	font-size: 1.5rem;
+	margin-top: 20px;
+}
+
+.course p {
+	font-size: 1.2rem;
+	margin-top: 10px;
+}
+
+.button {
+	background-color: #333;
+	color: #fff;
+	display: block;
+	margin: 20px auto 0;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.button:hover {
+	background-color: #555;
+	cursor: pointer;
+}

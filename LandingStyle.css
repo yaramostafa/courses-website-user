@@ -1,0 +1,140 @@
+
+#back{
+    background-image: linear-gradient(#8039a1, #3c2065);
+    background-attachment: fixed; 
+}
+.hy{
+    position: relative;
+    text-align: center;
+}
+
+.box{
+    width: 600px;
+    height: 350px;
+    top:150px;
+    left:300px;
+    background: violet;
+    color: white;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3em;
+    text-shadow: 2px 2px 5px purple;
+}
+.box2 {
+    background-color: #E6E6FA;
+    width: 500px;
+    height: 300px;
+    left:800px;
+    position: relative;
+    border: 5px solid #89CFF0;
+    padding: 50px;
+    font-size: 1.5em;
+}
+
+
+.box:hover::after, .box:hover::before{
+    transform: scale(1, 1);
+}
+.box::after, .box::before{
+    content: '';
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    bottom: 30px;
+    left: 30px;
+    transition: all 0.5s;
+}
+.box::after{
+    border-right: 1px solid #89CFF0;
+    border-left: 1px solid #89CFF0;
+    transform: scale(1, 0);
+}
+.box::before{
+    border-top: 1px solid #89CFF0;
+    border-bottom: 1px solid #89CFF0;
+    transform: scale(0, 1);
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.6;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-instagram {
+    background: #ea4c89;
+    color: white;
+}
+
+.bigWord{
+    font-size: 30px;
+    text-align: center;
+    color:#89CFF0;
+}
+
+hr.new{
+    overflow: visible; 
+    height: 30px;
+    border-style: solid;
+    border-color: #89CFF0;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+
+fieldset{
+    width: 20%;
+    margin: 5px;
+    display: inline;
+    background-color: #8039a1;
+
+}
+
+legend{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    color:#89CFF0;
+}
+
+p.field{
+    font-size: 20px;
+    text-align: justify;
+    color:aqua;
+
+}
+
+img {
+    border-radius: 4px;
+    padding: 5px;
+    width: 250px;
+}
+
+input[type=button] {
+    background-color: #89CFF0;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
